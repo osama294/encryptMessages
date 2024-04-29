@@ -14,7 +14,7 @@ class EncryptionService
 
     public function decrypt($data)
     {
-        // Decrypt the data using Laravel's decryption facilities
+     // Decrypt the data using Laravel's decryption facilities
         return Crypt::decrypt($data);
     }
 }
