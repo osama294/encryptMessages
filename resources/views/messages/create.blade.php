@@ -5,7 +5,7 @@
     <form action="{{ url('/messages') }}" method="POST">
         @csrf
         <div class="form-group">
-            <label for="recipient">Recipient ID:</label>
+            <label for="recipient">Recipient Name:</label>
             <input type="text" class="form-control" id="recipient" name="recipient" required>
         </div>
         <div class="form-group">
